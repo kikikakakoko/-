@@ -16,6 +16,7 @@
 		2753BD0E2A81EF9F00B96020 /* dragDropInSectionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2753BD0D2A81EF9F00B96020 /* dragDropInSectionsTests.swift */; };
 		2753BD182A81EF9F00B96020 /* dragDropInSectionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2753BD172A81EF9F00B96020 /* dragDropInSectionsUITests.swift */; };
 		2753BD1A2A81EF9F00B96020 /* dragDropInSectionsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2753BD192A81EF9F00B96020 /* dragDropInSectionsUITestsLaunchTests.swift */; };
+		2753BD272A81EFD900B96020 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2753BD262A81EFD900B96020 /* Cell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2753BD132A81EF9F00B96020 /* dragDropInSectionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dragDropInSectionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2753BD172A81EF9F00B96020 /* dragDropInSectionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dragDropInSectionsUITests.swift; sourceTree = "<group>"; };
 		2753BD192A81EF9F00B96020 /* dragDropInSectionsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dragDropInSectionsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2753BD262A81EFD900B96020 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				2753BCFF2A81EF9E00B96020 /* Assets.xcassets */,
 				2753BD012A81EF9E00B96020 /* LaunchScreen.storyboard */,
 				2753BD042A81EF9E00B96020 /* Info.plist */,
+				2753BD262A81EFD900B96020 /* Cell.swift */,
 			);
 			path = dragDropInSections;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2753BCFB2A81EF9D00B96020 /* ViewController.swift in Sources */,
+				2753BD272A81EFD900B96020 /* Cell.swift in Sources */,
 				2753BCF72A81EF9D00B96020 /* AppDelegate.swift in Sources */,
 				2753BCF92A81EF9D00B96020 /* SceneDelegate.swift in Sources */,
 			);
